@@ -24,4 +24,9 @@ public class MD5Util {
         }
         return null;
     }
+
+    public static void main(String[] args) {
+        String msg = "鄧世雄";
+        System.out.println(MD5Util.md5Hex(msg))  ;
+    }
 }
